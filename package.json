@@ -1,0 +1,28 @@
+{
+  "name": "expenses-chart-component-main",
+  "version": "1.0.0",
+  "description": "This is a barchart component project from frontend mentor",
+  "main": "webpack.common.js",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "Said Shahrokh",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^6.9.1",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "merge": "^2.1.1",
+    "mini-css-extract-plugin": "^2.7.7",
+    "postcss": "^8.4.33",
+    "postcss-loader": "^8.0.0",
+    "postcss-preset-env": "^9.3.0",
+    "sass": "^1.70.0",
+    "sass-loader": "^14.0.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
